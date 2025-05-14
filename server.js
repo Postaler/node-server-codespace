@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
 
     case '/about':
       res.statusCode = 200;
-      res.end('<h1>Welcome to Andrei\'s About Page!</h1><p>Please add interesting info here.</p>');
+      res.end('<h1>Welcome to Andrei Novozhilov About Page!</h1><p>Please add interesting info here.</p>');
       break;
 
     default:
